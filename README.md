@@ -348,8 +348,6 @@ Go to the application code and change something.
 
 ![image](https://user-images.githubusercontent.com/115881685/215721236-88b1eb6d-a3d8-425f-b583-ab6bf382e8cd.png)
 
-I changed the pls subscribe, comment and like this video to Hello, Docker project.
-
 scroll down and commit the changes.
 
 This should automatically trigger the buildimage using the webhook.
@@ -384,19 +382,12 @@ Go to the terminal and run kubectl get pods to see the new pods.
 
 ![image](https://user-images.githubusercontent.com/115881685/215730041-3b30dcd0-55ec-4fa3-b4c2-e113429a7b61.png).
 
-yes we are on track, and finally go to the application page and refresh your browser.
+go to the application page and refresh your browser.
 
 ![image](https://user-images.githubusercontent.com/115881685/215730505-9dc002db-6945-4d29-a00f-c977def51548.png)
 
 
-Hurraaaaaaaaaaay!!!!
-
 As expected, the kubernetes loadbalancer service is pointing to the updated docker image with the updated code.
-
-Alright folks, we did it, end to end deployment into kubernetes cluster using jenkins, devops and gitops.
-
-
-
 
 
 
